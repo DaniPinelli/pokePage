@@ -9,8 +9,12 @@ header{
     min-height:100%;
     height: 404px;
     background-size:cover;
-    display: flex;
+}
+
+.nav{
+    display:flex;
     justify-content: space-between;
+   /* background-color: white;*/
 }
 
 .logoDiv{
@@ -46,9 +50,9 @@ header{
 }
 
 .welcomeDiv{
-    padding-top: 92px;
-    margin-right: -854px;
     font-weight: bold;
+    float: right;
+    margin-right: 70px;
 }
 
 .welcomeDiv h1{
