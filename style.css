@@ -1,3 +1,57 @@
+.container{
+    margin-top: 0;
+    margin-left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header{
     background-image: url("PokemonBG.jpg");
+    min-height:100%;
+    background-size:cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoDiv{
+    display:flex;
+    padding-top: 16px;
+    padding-left: 74px;
+    max-width: 220px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.logoText{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 12px;
+    margin-top: 16px;
+}
+
+.topNav{
+    padding-right: 40px;
+    padding-top: 34px;
+}
+
+.topNav a {
+    text-decoration: none;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.welcomeDiv{
+    padding-top: 92px;
+    margin-right: -724px;
+    font-weight: bold;
+}
+
+.welcomeDiv h1{
+    font-size: 46px;
+}
+
+.welcomeDiv p{
+    padding-left: 96px;
 }
