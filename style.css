@@ -7,6 +7,7 @@
 header{
     background-image: url("PokemonBG.jpg");
     min-height:100%;
+    height: 404px;
     background-size:cover;
     display: flex;
     justify-content: space-between;
@@ -14,13 +15,13 @@ header{
 
 .logoDiv{
     display:flex;
-    padding-top: 16px;
+    padding-top: 20px;
     padding-left: 74px;
     max-width: 220px;
 }
 
 .logo{
-    height: 50px;
+    height: 45px;
 }
 
 .logoText{
@@ -28,11 +29,12 @@ header{
     font-weight: bold;
     padding-left: 12px;
     margin-top: 16px;
+    color:rgb(10, 10, 43);
 }
 
 .topNav{
-    padding-right: 40px;
-    padding-top: 34px;
+    padding-right: 46px;
+    padding-top: 38px;
 }
 
 .topNav a {
@@ -40,18 +42,38 @@ header{
     padding: 6px;
     font-weight: bold;
     font-size: 12px;
+    color:rgb(10, 10, 43);
 }
 
 .welcomeDiv{
     padding-top: 92px;
-    margin-right: -724px;
+    margin-right: -854px;
     font-weight: bold;
 }
 
 .welcomeDiv h1{
-    font-size: 46px;
+    font-size: 48px;
+    letter-spacing: -3px;
+    color:rgb(10, 10, 43);
 }
 
 .welcomeDiv p{
     padding-left: 96px;
+    font-size: 14px;
+    color:rgb(10, 10, 43);
+}
+
+.btnView{
+    padding: 18px 42px;
+    border-radius: 30px;
+    border-style: solid;
+    margin-top: 8px;
+    margin-left: 188px;
+    color:white;
+    font-size: 12px;
+    background: rgb(63,92,209);
+    background: -moz-linear-gradient(90deg, rgba(63,92,209,1) 64%, rgba(63,96,185,1) 66%, rgba(64,101,159,1) 68%, rgba(65,106,134,1) 70%, rgba(67,124,35,1) 72%);
+    background: -webkit-linear-gradient(90deg, rgba(63,92,209,1) 64%, rgba(63,96,185,1) 66%, rgba(64,101,159,1) 68%, rgba(65,106,134,1) 70%, rgba(67,124,35,1) 72%);
+    background: linear-gradient(90deg, rgba(63,92,209,1) 64%, rgba(63,96,185,1) 66%, rgba(64,101,159,1) 68%, rgba(65,106,134,1) 70%, rgba(67,124,35,1) 72%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5cd1",endColorstr="#437c23",GradientType=1);
 }
