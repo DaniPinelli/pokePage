@@ -1,7 +1,7 @@
 .container {
     margin-top: 0;
     margin-left: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -15,9 +15,6 @@ header {
     display: flex;
     justify-content: space-between;
     min-width: 100%;
-    /*background-color: #fff;
-    position: fixed;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
 }
 
 .logoDiv {
@@ -119,8 +116,12 @@ header {
     font-size: 28px;
 }
 
+.green {
+    color: rgb(149, 223, 149) 5px solid;
+}
+
 .one {
-    border-left: green 5px solid;
+    border-left: rgb(149, 223, 149) 5px solid;
     margin-left: 62px;
 }
 
@@ -170,4 +171,45 @@ header {
 .imgThree {
     margin-left: 40px;
     margin-right: 2px;
+}
+
+.paragraphThree {
+    margin-left: 34px;
+    padding-right: 62px;
+    margin-top: 10px;
+}
+
+.pThree {
+    font-weight: bold;
+}
+
+.four {
+    margin-left: 62px;
+    margin-top: 16px;
+    border-right: rgb(182, 43, 19) 5px solid;
+    margin-right: 62px;
+}
+
+.paragraphFour {
+    margin-right: 34px
+}
+
+.imgFour {
+    margin-right: 2px;
+}
+
+.yearFour {
+    margin-right: 40px;
+}
+
+.foot {
+    color: rgb(6, 6, 100);
+    font-weight: bold;
+    text-align: center;
+}
+
+.scroll {
+    background-color: #fff;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
